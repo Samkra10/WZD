@@ -1,4 +1,23 @@
-gift1,Open,Titel 1,Untertitel 1,Dies ist der Inhalt für Geschenk 1.
-gift2,Closed,Titel 2,Untertitel 2,Dies ist der Inhalt für Geschenk 2.
-gift3,Closed,Titel 3,Untertitel 3,Dies ist der Inhalt für Geschenk 3.
-gift4,Closed,Titel 4,Untertitel 4,Dies ist der Inhalt für Geschenk 4.
+gift1
+Open
+Titel 1
+Untertitel 1
+Dies ist der Inhalt für Geschenk 1.
+
+gift2
+Closed
+Titel 2
+Untertitel 2
+Dies ist der Inhalt für Geschenk 2.
+
+gift3
+Closed
+Titel 3
+Untertitel 3
+Dies ist der Inhalt für Geschenk 3.
+
+gift4
+Closed
+Titel 4
+Untertitel 4
+Dies ist der Inhalt für Geschenk 4.
