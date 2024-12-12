@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
                             modalTitle.textContent = title;
                             modalSubtitle.textContent = subtitle;
                             modalText.textContent = content;
-                            modal.style.display = 'block';
+                            modal.style.display = 'flex';
                         }
                     });
                 });
