@@ -37,4 +37,22 @@ document.addEventListener('DOMContentLoaded', function() {
             modal.style.display = 'none';
         }
     });
+
+    // Leaderboard-Daten laden
+    fetch('LB.txt')
+        .then(response => response.text())
+        .then(data => {
+            const leaderboardTable = document.getElementById('leaderboard-table').getElementsByTagName('tbody')[0];
+            const entries = data.trim().split('\n');
+            entries.forEach(entry => {
+                const [rank, name, points] = entry.split(',');
+                const row = leaderboardTable.insertRow();
+                const cellRank = row.insertCell(0);
+                const cellName = row.insertCell(1);
+                const cellPoints = row.insertCell(2);
+                cellRank.textContent = rank;
+                cellName.textContent = name;
+                cellPoints.textContent = points;
+            });
+        });
 });
