@@ -12,14 +12,15 @@ document.addEventListener('DOMContentLoaded', function() {
             fetch('Gifts.txt')
                .then(response => response.text())
                .then(data => {
-                    const lines = data.split('\n');
-                    lines.forEach(line => {
-                        const [id, status, title, subtitle, text] = line.split(',');
+                    const gifts = data.split('\n\n');
+                    gifts.forEach(gift => {
+                        const [id, status, title, subtitle, ...contentLines] = gift.split('\n');
+                        const content = contentLines.join('\n');
                         if (id === giftId && status === 'Open') {
                             this.querySelector('img').src = 'opengift.png';
                             modalTitle.textContent = title;
                             modalSubtitle.textContent = subtitle;
-                            modalText.textContent = text;
+                            modalText.textContent = content;
                             modal.style.display = 'block';
                         }
                     });
