@@ -1,23 +1,23 @@
 gift1
-Open
-Titel 1
-Untertitel 1
+Closed
+Game 1
+Spleef
 Dies ist der Inhalt für Geschenk 1.
 
 gift2
 Closed
-Titel 2
-Untertitel 2
+Game 2
+Geschenkangeln
 Dies ist der Inhalt für Geschenk 2.
 
 gift3
 Closed
-Titel 3
-Untertitel 3
+Gane 3
+Schneeballschlacht
 Dies ist der Inhalt für Geschenk 3.
 
 gift4
 Closed
-Titel 4
-Untertitel 4
+Game 4
+geschenksuche
 Dies ist der Inhalt für Geschenk 4.
