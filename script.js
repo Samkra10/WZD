@@ -38,7 +38,6 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
-    // Leaderboard-Daten laden
     fetch('LB.txt')
         .then(response => response.text())
         .then(data => {
