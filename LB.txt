@@ -1,10 +1,11 @@
-1,Tankuri / Nici2997 ,18
-2,WZDrichart99,11
-3,Selencius / SniperRifel / RealBVBGamer,6
-4,ryekouu,5
-5,MxxGOTY,3
-6,--No Data--,0
-7,--No Data--,0
-8,--No Data--,0
-9,--No Data--,0
-10,--No Data--,0
+1,LaraWolfQueen,271
+2,Yxshix,224
+3,KENAUTOSOHN,178
+4,WZDrichart99,166
+5,Nici2997,152
+6,Selencius,149
+7,MxxGOTY,127
+8,Cedric_Legend,62
+9,Tankuri,18
+10,RealBVBGamer / SniperRifle,6
+
